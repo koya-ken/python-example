@@ -47,6 +47,11 @@ class B(BaseClass):
 
 class C(A,B):
     def __init__(self,*args,**kwargs):
+        """[summary]
+
+        Arguments:
+            A {[type]} -- [description]
+        """
         super().__init__(*args,**kwargs)
 # superの__init__を明示的に呼び出さなければ
 # 片方(先に継承したほう)しか実施されない
