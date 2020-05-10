@@ -1,4 +1,6 @@
 # https://docs.python.org/ja/3/library/concurrent.futures.html
+# https://qiita.com/Tatejimaru137/items/c3aabd17196543fdfd20
+# https://dev.classmethod.jp/articles/python-asyncio/
 import concurrent.futures
 import urllib.request
 
